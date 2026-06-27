@@ -11,9 +11,7 @@ The most recent version of my curriculum vitae is available below.
 
 <div style="margin-top:20px; margin-bottom:20px;">
 
-<a class="btn btn--primary btn--large"
-href="/files/CV.pdf"
-target="_blank">
+<a class="btn btn--primary btn--large" href="/files/CV.pdf" target="_blank">
 📄 Download CV (PDF)
 </a>
 
