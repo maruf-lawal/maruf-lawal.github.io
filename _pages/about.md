@@ -61,7 +61,7 @@ I am interested in combining mechanistic mathematical models with statistical an
 ## Recent Highlights
 
 - Winner — **Modeling the Invisible Workshop Forecasting Challenge (2026)**
-- Ph.D. in Mathematics, University of Tennessee, Knoxville
+- Ph.D. (in view) in Mathematics, University of Tennessee, Knoxville
 - Research spanning infectious disease modeling, ecology, and optimal control
 - Publications in mathematical biology and public health
 
