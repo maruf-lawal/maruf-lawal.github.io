@@ -7,7 +7,6 @@ redirect_from:
   - /about.html
 ---
 
-# About Me
 
 I am a mathematician working at the intersection of mathematical biology, infectious disease modeling, ecological modeling, optimal control, and data-driven decision-making.
 
