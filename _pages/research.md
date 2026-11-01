@@ -21,7 +21,7 @@ Harvesting one species affects its predators and prey. Using Pontryagin's Maximu
 
 ## Forecasting with Limited Data
 
-I build ensemble forecasting pipelines that combine mechanistic models (SIR-H, SEIR, Bayesian and stochastic SEIR) with statistical models (ARIMA, exponential smoothing, Gaussian processes) and weight them adaptively as data arrive. This approach won first place in the 2026 *Modeling the Invisible* competition on forecasting viral spread with limited data at Georgia State University.
+I build ensemble forecasting pipelines that combine mechanistic models (SIR-H, SEIR, Bayesian and stochastic SEIR) with statistical models (ARIMA, exponential smoothing, Gaussian processes) and weight them adaptively as data arrive. This approach won the 2026 *Modeling the Invisible* competition on forecasting viral spread with limited data at Georgia State University.
 
 ## Methods and Tools
 
