@@ -4,24 +4,30 @@ title: "Publications"
 permalink: /publications/
 author_profile: true
 ---
+{% comment %} Content lives in _data/publications.yml {% endcomment %}
+{% assign pubs = site.data.publications %}
 
+<h2>Journal Articles</h2>
+<ol class="pub-list" reversed>
+{% for p in pubs %}{% if p.status == "published" %}{% include pub-item.html pub=p %}{% endif %}{% endfor %}
+</ol>
 
-<p>
-This page is currently under development.
-</p>
-
-<p>
-A complete list of my peer-reviewed publications, preprints, manuscripts, and research software will be available here soon.
-</p>
-
-<p>
-Please check back for updates.
-</p>
-
-
-{% if site.author.googlescholar %}
-  <div class="wordwrap">You can also find my articles on <a href="{{site.author.googlescholar}}">my Google Scholar profile</a>.</div>
+{% assign pre = pubs | where: "status", "preprint" %}
+{% if pre.size > 0 %}
+<h2>Preprints</h2>
+<ul class="pub-list">
+{% for p in pre %}{% include pub-item.html pub=p %}{% endfor %}
+</ul>
 {% endif %}
 
-{% include base_path %}
+{% assign ur = pubs | where: "status", "under-review" %}
+{% if ur.size > 0 %}
+<h2>Under Review</h2>
+<ul class="pub-list">
+{% for p in ur %}{% include pub-item.html pub=p %}{% endfor %}
+</ul>
+{% endif %}
 
+{% if site.author.googlescholar %}
+<p class="pub-note">A current list is also on <a href="{{ site.author.googlescholar }}">Google Scholar</a>.</p>
+{% endif %}

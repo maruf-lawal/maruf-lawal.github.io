@@ -1,19 +1,28 @@
 ---
 layout: archive
-title: "Talks and presentations"
+title: "Talks and Presentations"
 permalink: /talks/
 author_profile: true
 ---
+{% comment %} Content lives in _data/talks.yml and _data/workshops.yml {% endcomment %}
 
+<h2>Invited Talks</h2>
+<ul class="item-list">
+{% for t in site.data.talks %}{% if t.type == "invited" %}
+  <li><span class="item-date">{{ t.date }}</span> <strong>{{ t.title }}</strong><br>{{ t.event }}, {{ t.location }}</li>
+{% endif %}{% endfor %}
+</ul>
 
-<p>
-This page is currently under development.
-</p>
+<h2>Contributed Talks</h2>
+<ul class="item-list">
+{% for t in site.data.talks %}{% if t.type == "contributed" %}
+  <li><span class="item-date">{{ t.date }}</span> <strong>{{ t.title }}</strong><br>{{ t.event }}, {{ t.location }}</li>
+{% endif %}{% endfor %}
+</ul>
 
-<p>
-Information about invited talks, conference presentations, seminars, and workshops will be available here soon.
-</p>
-
-<p>
-Please check back for updates.
-</p>
+<h2>Research Workshops and Boot Camps</h2>
+<ul class="item-list">
+{% for w in site.data.workshops %}
+  <li><span class="item-date">{{ w.date }}</span> <strong>{{ w.event }}</strong>{% if w.project %}<br>Project: {{ w.project }}{% endif %}</li>
+{% endfor %}
+</ul>

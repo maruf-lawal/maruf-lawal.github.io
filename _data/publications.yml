@@ -1,0 +1,44 @@
+# PUBLICATIONS
+# Newest first within each section. To add a paper, copy a block and edit it.
+# status: published | under-review | preprint
+# Your own name is bolded automatically wherever "M. A. Lawal" appears in authors.
+# Leave a link field blank (or delete the line) if it does not apply.
+
+- title: "An Optimal Control Framework for Multi-Species Harvesting in the Southern Black Sea"
+  authors: "M. A. Lawal, M. Demir, M. R. Kelly, and S. Lenhart"
+  venue: "Natural Resource Modeling"
+  details: "39:e70044"
+  year: 2026
+  status: published
+  doi: "10.1111/nrm.70044"
+  summary: "Applies Pontryagin's Maximum Principle to a three-species predator–prey system (horse mackerel, Atlantic bonito, bluefish) to balance harvest profit against ecosystem sustainability."
+
+- title: "Evaluating Syphilis Transmission Among MSM Population: A Mathematical Model for Reinfection, Two-Stage Treatment and Treatment Failure"
+  authors: "C. W. Chukwu, M. A. Lawal, D. Aldila, and G. Obaido"
+  venue: "Frontiers in Public Health"
+  details: "14:1841745"
+  year: 2026
+  status: published
+  doi: "10.3389/fpubh.2026.1841745"
+
+- title: "Stability and Sensitivity Analysis of a Deterministic Epidemiological Model with Pseudo-recovery"
+  authors: "S. Olaniyi, M. A. Lawal, and O. S. Obabiyi"
+  venue: "IAENG International Journal of Applied Mathematics"
+  details: "46(2):160–167"
+  year: 2016
+  status: published
+
+- title: "State-Level Validation of Syphilis and Chlamydia Transmission Models in the United States: An Open Surveillance Panel (2000–2024) and a Held-Out-Year Benchmark"
+  authors: "M. A. Lawal"
+  venue: "Preprint"
+  year: 2026
+  status: preprint
+  pdf: "https://github.com/maruf-lawal/us-sti-state-panel/blob/main/paper/preprint/main.pdf"
+  code: "https://github.com/maruf-lawal/us-sti-state-panel"
+  data: "https://doi.org/10.5281/zenodo.23742262"
+
+- title: "Simulation-Based Predictive Modeling of Behavioral Heterogeneity in Chlamydia Transmission: Insights from U.S. Surveillance Data"
+  authors: "C. W. Chukwu, M. A. Lawal, K. R. Cheneke, and D. Wanduku"
+  venue: "Under review"
+  year: 2026
+  status: under-review
