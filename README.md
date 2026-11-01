@@ -1,7 +1,7 @@
 # maruf-lawal.github.io
 
 Personal academic website of Maruf Lawal, live at https://maruf-lawal.github.io.
-Built with Jekyll on the AcademicPages theme and published automatically by GitHub Pages whenever `master` changes.
+Built with Jekyll on the AcademicPages theme and published automatically by GitHub Pages whenever `main` changes.
 
 ## How to update the site
 
