@@ -1,0 +1,16 @@
+---
+layout: archive
+title: "Software and Data"
+permalink: /software/
+author_profile: true
+---
+{% comment %} Content lives in _data/software.yml {% endcomment %}
+<p>Open datasets, code, and benchmarks from my research. Each release is archived on Zenodo with a DOI so it can be cited.</p>
+{% for s in site.data.software %}
+<div class="software-item">
+  <h2>{{ s.name }}</h2>
+  {% if s.version %}<p class="item-date">{{ s.version }}</p>{% endif %}
+  <p>{{ s.description }}</p>
+  <p class="pub-links">{% for l in s.links %}<a href="{{ l.url }}">{{ l.label }}</a>{% endfor %}</p>
+</div>
+{% endfor %}

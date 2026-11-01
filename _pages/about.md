@@ -1,70 +1,29 @@
 ---
 permalink: /
-title: "" # "About Me"
+title: ""
 author_profile: true
-redirect_from: 
+redirect_from:
   - /about/
   - /about.html
 ---
 
+I am a Ph.D. candidate in Mathematics at the **University of Tennessee, Knoxville**, advised by Prof. Suzanne Lenhart, with my degree expected in December 2026. I build mathematical models of infectious disease and ecological systems and use **optimal control**, **parameter estimation**, and **forecasting** to turn them into tools that support decisions in **public health** and **natural resource management**.
 
+My recent work includes compartmental models of vaccine hesitancy and syphilis transmission, an optimal control framework for multi-species fisheries in the Black Sea, an ensemble forecasting approach that won the 2026 *Modeling the Invisible* forecasting competition, and an open state-level surveillance panel for benchmarking STI transmission models.
 
+## Research Interests
 
-## Welcome
+- **Infectious disease modeling:** transmission dynamics, behavioral responses and vaccine hesitancy, sexually transmitted infections, model calibration and validation against surveillance data
+- **Optimal control and decision science:** intervention design for epidemics; sustainable harvesting of renewable resources
+- **Forecasting and data-driven modeling:** ensemble forecasts that combine mechanistic and statistical models, uncertainty quantification
+- **Ecological and fisheries modeling:** multi-species predator–prey systems and ecosystem-based management
 
-I am a mathematician whose research integrates **mathematical biology, infectious disease modeling, ecology, optimal control, and data-driven modeling** to develop quantitative tools that support decision-making in **public health** and **natural resource management**.
+More on the [Research](/research/) page.
 
-My work combines dynamical systems, optimization, forecasting, and statistical inference to better understand complex biological systems and inform evidence-based policy. More specifically, I am interested in developing mathematically rigorous models that address real-world challenges in epidemiology and ecosystem management.
+## Recent News
 
----
-
-## Research Areas
-
-### 🦠 Infectious Disease Modeling
-
-I develop compartmental and data-driven models to investigate disease transmission, behavioral dynamics, vaccine hesitancy, epidemic forecasting, and public health interventions.
-
-### 🐟 Ecological & Fisheries Modeling
-
-My research develops optimal control frameworks for ecosystem-based fisheries management, balancing ecological sustainability with economic profitability.
-
-### 📈 Forecasting & Data Science
-
-I use statistical modeling, optimization, and machine learning techniques to analyze biological data and improve forecasting for public health and environmental systems.
-
-### ⚙️ Optimal Control & Decision Science
-
-I design mathematical optimization strategies that support decision-making in infectious disease control and renewable natural resource management.
-
----
-
-## Featured Research
-
-### Modeling the Interplay of Vaccine Hesitancy and Disease Dynamics
-
-This research develops mathematical models that integrate behavioral responses into infectious disease transmission dynamics. The work investigates how vaccine hesitancy influences epidemic trajectories and evaluates strategies for improving vaccination uptake.
-
----
-
-### Optimal Sustainable Management of Multi-Species Harvesting
-
-My dissertation develops an ecosystem-based optimal control framework for sustainable harvesting in the southern Black Sea, integrating ecological interactions with economic objectives.
-
----
-
-### Data-Driven Modeling and Forecasting
-
-I am interested in combining mechanistic mathematical models with statistical and machine learning approaches to improve forecasting and decision support for biological systems.
-
----
-
-## Recent Highlights
-
-- Winner — **Modeling the Invisible Workshop Forecasting Challenge (2026)**
-- Ph.D. (in view) in Mathematics, University of Tennessee, Knoxville
-- Research spanning infectious disease modeling, ecology, and optimal control
-- Publications in mathematical biology and public health
-
----
-
-Thank you for visiting my website. Please explore the **Research**, **Publications**, **Teaching**, and **CV** pages to learn more about my work.
+<ul class="news-list">
+{% for n in site.data.news limit: 6 %}
+  <li><span class="news-date">{{ n.date }}</span> {{ n.text | markdownify | remove: '<p>' | remove: '</p>' }}</li>
+{% endfor %}
+</ul>

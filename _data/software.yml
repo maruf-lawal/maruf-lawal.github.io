@@ -1,0 +1,13 @@
+# SOFTWARE AND DATA
+- name: "U.S. State Syphilis and Chlamydia Panel and Model Validation Benchmark"
+  version: "v1.0.0 (October 2026)"
+  description: "CDC-reported syphilis and chlamydia cases for every U.S. state and year since 2000, matched to Census population, with two published STI transmission models fitted to each state and scored on held-out years. Intended to help state and local STI programs judge how well a model has been tested against their own case history."
+  links:
+    - label: "Panel data (DOI)"
+      url: "https://doi.org/10.5281/zenodo.23742262"
+    - label: "Validation scorecard (DOI)"
+      url: "https://doi.org/10.5281/zenodo.23742264"
+    - label: "Code on GitHub"
+      url: "https://github.com/maruf-lawal/us-sti-state-panel"
+    - label: "Preprint (PDF)"
+      url: "https://github.com/maruf-lawal/us-sti-state-panel/blob/main/paper/preprint/main.pdf"
