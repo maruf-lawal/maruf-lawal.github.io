@@ -3,7 +3,7 @@
   <span class="pub-authors">{{ p.authors | replace: "M. A. Lawal", "<strong>M. A. Lawal</strong>" }}</span>
   ({{ p.year }}).
   <span class="pub-title">{{ p.title }}.</span>
-  {% if p.status == "published" %}<em>{{ p.venue }}</em>{% if p.details %}, {{ p.details }}{% endif %}.{% endif %}
+  {% if p.status == "published" or p.status == "preprint" %}<em>{{ p.venue }}</em>{% if p.details %}, {{ p.details }}{% endif %}.{% endif %}
   {% if p.summary %}<br><span class="pub-summary">{{ p.summary }}</span>{% endif %}
   {% if p.doi or p.pdf or p.code or p.data %}
   <span class="pub-links">

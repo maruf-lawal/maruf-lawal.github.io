@@ -30,10 +30,10 @@
 
 - title: "State-Level Validation of Syphilis and Chlamydia Transmission Models in the United States: An Open Surveillance Panel (2000–2024) and a Held-Out-Year Benchmark"
   authors: "M. A. Lawal"
-  venue: "Preprint"
+  venue: "Preprints.org"
   year: 2026
   status: preprint
-  pdf: "https://github.com/maruf-lawal/us-sti-state-panel/blob/main/paper/preprint/main.pdf"
+  doi: "10.20944/preprints202611.0141.v1"
   code: "https://github.com/maruf-lawal/us-sti-state-panel"
   data: "https://doi.org/10.5281/zenodo.23742262"
 
