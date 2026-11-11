@@ -1,0 +1,4 @@
+{% comment %} Show the preprint server (howpublished) for misc entries, e.g. "Preprints.org, 2026". {% endcomment %}
+{% if entry.type == 'misc' and entry.howpublished %}
+  {% capture entrytype %}<em>{{ entry.howpublished }}</em>{% endcapture %}
+{% endif %}
