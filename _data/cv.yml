@@ -1,0 +1,103 @@
+# Content of the CV page (/cv/). The downloadable PDF is assets/pdf/Maruf_Lawal_CV.pdf.
+cv:
+  name: Maruf A. Lawal
+  label: Ph.D. Candidate in Mathematics
+  email: mlawal@vols.utk.edu
+  location: Knoxville, TN
+  image: ""
+  summary: Mathematical biologist working on infectious disease modeling, optimal control, and forecasting for public health and natural resource management.
+
+  social_networks:
+    - network: GitHub
+      username: maruf-lawal
+    - network: ORCID
+      username: 0000-0002-8879-0267
+
+  sections:
+    Education:
+      - institution: University of Tennessee, Knoxville
+        location: Knoxville, TN
+        area: Mathematics
+        studyType: Ph.D.
+        date: 2026
+        highlights:
+          - "Dissertation: Modeling COVID-19 Dynamics Incorporating Vaccine Hesitancy and An Optimal Control Framework for Multi-Species Harvesting in the Southern Black Sea"
+          - "Expected December 2026. Advisor: Prof. Suzanne Lenhart"
+
+      - institution: University of Tennessee, Knoxville
+        location: Knoxville, TN
+        area: Mathematics
+        studyType: M.S.
+        date: 2023
+
+      - institution: Ladoke Akintola University of Technology
+        location: Nigeria
+        area: Mathematics (First Class Honours)
+        studyType: B.Tech.
+        date: 2015
+        highlights:
+          - "Thesis: Mathematical modeling of a standard incidence epidemiological model with relapse. Advisor: Dr. Samson Olaniyi"
+
+    Experience:
+      - company: University of Tennessee, Knoxville
+        position: Graduate Teaching Associate
+        location: Knoxville, TN
+        start_date: 2022
+        end_date: present
+      - company: University of Tennessee, Knoxville
+        position: Graduate Teaching Assistant
+        location: Knoxville, TN
+        start_date: 2021
+        end_date: 2022
+      - company: Learn-With-Ease Schools
+        position: High School Mathematics Teacher
+        location: Lagos, Nigeria
+        start_date: 2019
+        end_date: 2021
+      - company: Tractrain Consulting
+        position: Mathematics Tutor
+        location: Lagos, Nigeria
+        start_date: 2018
+        end_date: 2021
+      - company: Federal Polytechnic Kaura Namoda
+        position: Teaching Assistant
+        location: Zamfara, Nigeria
+        start_date: 2015
+        end_date: 2017
+
+    Awards:
+      - title: Open Publishing Support Fund Award ($1,800)
+        date: Sept. 2026
+        awarder: University of Tennessee
+      - title: "Winner, Modeling the Invisible: Competition on Forecasting Viral Spread with Limited Data"
+        date: June 2026
+        awarder: Georgia State University
+      - title: Joint Mathematics Meetings Graduate Student Travel Grant ($1,430)
+        date: Jan. 2025
+        awarder: American Mathematical Society
+      - title: Summer Dissertation Fellowship ($4,000)
+        date: June 2024
+        awarder: UTK Department of Mathematics
+      - title: Yueh-er, Hong-hsu and Clarence Cheng Kuo Fellowship ($1,000)
+        date: Apr. 2023
+        awarder: UTK Mathematics Honors Day
+      - title: Gold Medal, National Mathematics Competition for University Students (NAMCUS)
+        date: Apr. 2015
+        awarder: Abuja, Nigeria
+
+    Peer Review:
+      - bullet: "Journal reviewer for _Journal of Biological Dynamics_, _PLOS One_, _Scientific Reports_, _Mathematical Modelling and Applications_, and _Mathematical Modelling and Numerical Simulation with Applications_"
+
+    Service:
+      - bullet: "Reviewer, Undergraduate Poster Session, Joint Mathematics Meetings (2024, 2025)"
+      - bullet: "Elected Senator, UTK Graduate Student Senate (2024–2025)"
+      - bullet: "Graduate Student Representative, UTK Technology Fee Advisory Board (2024–2025)"
+      - bullet: "Panelist, UTK SIAM Graduate Student Internship and Workshop Experiences Panel (Oct. 2023)"
+
+    Skills:
+      - name: Programming
+        keywords: "MATLAB, Python, R, Maple, LaTeX"
+      - name: Methods
+        keywords: "Deterministic and stochastic dynamical systems; optimal control theory; parameter estimation, identifiability, and uncertainty quantification; model calibration and validation against surveillance data; ensemble and probabilistic forecasting; statistical and machine learning methods"
+      - name: Affiliations
+        keywords: "AMS, SMB, SIAM, MAA, MIDAS, Nigerian Mathematical Society"

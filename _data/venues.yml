@@ -1,0 +1,14 @@
+# Badge links and colours for the "abbr" field in _bibliography/papers.bib
+"Nat. Resour. Model.":
+  url: https://onlinelibrary.wiley.com/journal/19397445
+  color: "#0F5E73"
+"Front. Public Health":
+  url: https://www.frontiersin.org/journals/public-health
+  color: "#0F5E73"
+"IAENG IJAM":
+  url: https://www.iaeng.org/IJAM/
+  color: "#0F5E73"
+"Preprint":
+  color: "#6B7680"
+"Under review":
+  color: "#6B7680"
