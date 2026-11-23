@@ -27,7 +27,7 @@ latest_posts:
 
 I am a Ph.D. candidate in Mathematics at the **University of Tennessee, Knoxville**, advised by Prof. Suzanne Lenhart, with my degree expected in December 2026. I build mathematical models of infectious disease and ecological systems and use **optimal control**, **parameter estimation**, and **forecasting** to turn them into tools that support decisions in **public health** and **natural resource management**.
 
-My recent work includes compartmental models of vaccine hesitancy and syphilis transmission, an optimal control framework for multi-species fisheries in the Black Sea, an ensemble forecasting approach that won the 2026 _Modeling the Invisible_ forecasting competition, and an open state-level surveillance panel for benchmarking STI transmission models.
+My recent work includes compartmental models of vaccine hesitancy and syphilis transmission, an optimal control framework for multi-species fisheries in the Black Sea, and an ensemble forecasting approach that won the 2026 _Modeling the Invisible_ forecasting competition.
 
 **Research interests**
 

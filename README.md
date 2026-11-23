@@ -16,7 +16,6 @@ Edit a file on GitHub (pencil icon), then commit. The table says which file hold
 | Home page text                            | `_pages/about.md`                               |
 | News on the home page                     | add a file to `_news/` (see below)              |
 | Research page                             | `_pages/research.md`                            |
-| Software & data page                      | `_pages/software.md`                            |
 | Talks and workshops                       | `_pages/talks.md` (Markdown tables)             |
 | Teaching philosophy and courses           | `_pages/teaching.md`                            |
 | CV page content                           | `_data/cv.yml`                                  |
@@ -63,6 +62,10 @@ Add a square photo as `assets/img/prof_pic.jpg`, then in `_pages/about.md` set `
 2. `_data/cv.yml`: change `label:` and the Ph.D. "Expected December 2026" line.
 3. Add a news item; upload the new CV PDF.
 4. If your email changes: `_data/socials.yml` and `_data/cv.yml`.
+
+## Content on hold
+
+The Software & Data page, the preprint and related text are off the site for now; see `_on_hold/README.md` to restore them.
 
 ## Local customizations of the theme
 

@@ -15,7 +15,7 @@ How do attitudes toward vaccination change during an epidemic, and how do those 
 
 #### Sexually transmitted infections
 
-With collaborators, I model syphilis transmission among men who have sex with men, including reinfection, two-stage treatment, and treatment failure ([_Frontiers in Public Health_, 2026](https://doi.org/10.3389/fpubh.2026.1841745)), and behavioral heterogeneity in chlamydia transmission using U.S. surveillance data. Building on these models, I assembled an [open state-level syphilis and chlamydia panel]({{ '/software/' | relative_url }}) for 2000–2024 and used it to score, state by state, how well published transmission models predict years they were not fitted to.
+With collaborators, I model syphilis transmission among men who have sex with men, including reinfection, two-stage treatment, and treatment failure ([_Frontiers in Public Health_, 2026](https://doi.org/10.3389/fpubh.2026.1841745)), and behavioral heterogeneity in chlamydia transmission using U.S. surveillance data.
 
 #### Optimal control of multi-species fisheries
 
