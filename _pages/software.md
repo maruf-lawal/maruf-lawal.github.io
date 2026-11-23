@@ -18,5 +18,4 @@ CDC-reported syphilis and chlamydia cases for every U.S. state and year since 20
 <a class="btn btn-sm z-depth-0" role="button" href="https://doi.org/10.5281/zenodo.23742262">Panel data (DOI)</a>
 <a class="btn btn-sm z-depth-0" role="button" href="https://doi.org/10.5281/zenodo.23742264">Validation scorecard (DOI)</a>
 <a class="btn btn-sm z-depth-0" role="button" href="https://github.com/maruf-lawal/us-sti-state-panel">Code on GitHub</a>
-<a class="btn btn-sm z-depth-0" role="button" href="https://doi.org/10.20944/preprints202611.0141.v1">Preprint (DOI)</a>
 </div></li></ol></div>
